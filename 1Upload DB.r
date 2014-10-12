@@ -1,7 +1,5 @@
 
-##Upload the file and select the required range of Datat
-
-
+                        ##Upload the database file and select the required range of Data
 
 
 ## unzip the database file in your working directory
