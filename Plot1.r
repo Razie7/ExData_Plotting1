@@ -1,5 +1,6 @@
 
 # Plot 1 Histo
+# Make sure that you uploaded the database first by running the 1Upload DB.r file first
 hist(file$Global_active_power,
      col="red",
      main="Global Active Power", 
