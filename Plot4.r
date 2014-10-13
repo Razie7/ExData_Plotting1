@@ -1,6 +1,7 @@
 
 
 #Plot 4
+# Make sure that you uploaded the database first by running the 1Upload DB.r file first
 par(mfrow = c(2,2),mar=c(4,4,4,4),oma=c(0,1,0,0))
 with (file,{ 
         plot(Datetime1,Global_active_power, type="l",xlab="", ylab="Global active power(Kilowatts)")
