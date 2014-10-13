@@ -1,4 +1,6 @@
 #Plot 3
+# Make sure that you uploaded the database first by running the 1Upload DB.r file first
+
 with (file, plot(Datetime1,Sub_metering_1, type="l",xlab="", ylab="Energy sub metering",col="black"))
 lines (file$Datetime1,file$Sub_metering_2, type='l',col='red')
 lines (file$Datetime1,file$Sub_metering_3, type='l',col='blue')
